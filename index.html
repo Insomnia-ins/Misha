@@ -1,0 +1,61 @@
+<div class="q1" style="height: 800px; width: 900px; background: #FF5733; margin-left: 600px;">
+	<img src="5.jpeg" style=" width: 700px; height: 400px;">
+	<h1>Вопрос 1: Как звали скаута, который научил путешественника летать?</h1>
+	<div class="a1" style="height:80px; width: 500px; background: green;">а)Паймон</div>
+	<div class="a2" style="height:80px; width: 500px; background: yellow;">б)Эмбер</div>
+	<div class="a3" style="height:80px; width: 500px; background: pink;">в)Джинн</div>
+</div>
+
+<div class="q2" style="height: 800px; width: 900px; background: #FF5733; margin-left: 600px; display: none;"><iframe width="700" height="400" src="https://www.youtube.com/embed/4oBpaBEMBIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<h1>Вопрос 2: Кем является Чжун-Ли?</h1>
+	<div class="a1" style="height:80px; width: 500px; background: pink;">а)Архонт</div>
+	<div class="a2" style="height:80px; width: 500px; background: green;">б)Якс</div>
+	<div class="a3" style="height:80px; width: 500px; background: yellow;">в)Адепт</div>
+</div>
+
+<div class="q3" style="height: 800px; width: 900px; background: #FF5733; margin-left: 600px; display: none;">
+	<img src="6.png" style=" width: 700px; height:  400px;">
+	<h1>Вопрос 3: Откуда родом Кейа?</h1>
+	<div class="a1" style="height:80px; width: 500px; background: pink;">а)Ли-Юэ</div>
+	<div class="a2" style="height:80px; width: 500px; background: green;">б)Кхаэнри-ах</div>
+	<div class="a3" style="height:80px; width: 500px; background: orange;">в)Мондштадт</div>
+</div>
+
+<div class="q4" style="height: 800px; width: 900px; background: #FF5733; margin-left: 600px; display: none;">
+	<iframe width="700" height="400" src="https://www.youtube.com/embed/qrH9vMZBwAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<h1>Вопрос 4: Кем работает Ху-Тао?</h1>
+	<div class="a1" style="height:80px; width: 500px; background: yellow;">а)Могущественным экзорцистом</div>
+	<div class="a2" style="height:80px; width: 500px; background: green;">б)Гробовщиком</div>
+	<div class="a3" style="height:80px; width: 500px; background: pink;">в)управляющей ритуального бюро</div>
+</div>
+
+<div class="q5" style="height: 800px; width: 900px; background: #FF5733; margin-left: 600px; display: none;">
+	<img src="7.png" style=" width: 700px; height:  400px;">
+	<h1>Вопрос 5: Как звали архонта вихрей с которым мы сражались?</h1>
+	<div class="a1" style="height:80px; width: 500px; background: white;">а)Осиал</div>
+	<div class="a2" style="height:80px; width: 500px; background: blue;">б)Декарабиан</div>
+	<div class="a3" style="height:80px; width: 500px; background: yellow;">в)Моракс</div>
+</div>
+
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"></script> 
+<script>
+    find("q1 a1").click("alert","неправильный ответ");
+    find("q1 a2").click("show","q2","правильный ответ");
+    find("q1 a3").click("alert","неправильный ответ");
+
+    find("q2 a1").click("show","q3","правильный ответ");
+    find("q2 a2").click("alert","неправильный ответ");
+    find("q2 a3").click("alert","неправильный ответ");
+
+    find("q3 a1").click("alert","неправильный ответ");
+    find("q3 a2").click("alert","неправильный ответ");
+    find("q3 a3").click("show","q4","правильный ответ");
+
+    find("q4 a1").click("alert","неправильный ответ");
+    find("q4 a2").click("alert","неправильный ответ");
+    find("q4 a3").click("show","q5","правильный ответ");
+
+    find("q5 a1").click("alert","правильный ответ ты победил");
+    find("q5 a2").click("alert","неправильный ответ");
+    find("q5 a3").click("alert","неправильный ответ");
+</script>
